@@ -26,6 +26,9 @@
 >0.1em = 11.5px<br>
 >0.2em = 23pxとなる
 
+## === gulpコマンド集 ===
+- npx gulp タスクランナー
+- gulp imagemin 画像圧縮
 ## === emmet コマンド集 ===
 - html:5 雛形
 - link:css 読み込むcss設定
@@ -49,6 +52,7 @@
 - ta:c `text-align: center`
 - dib `display: inline-block`
 - df `display: flex`
+- fxd:rr `flex-direction: row-reverse`
 - fx:1 `flex:1`
 - bdrs `border-radius:`
 - mnw `min-width:`
