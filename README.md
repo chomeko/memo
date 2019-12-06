@@ -42,6 +42,7 @@
 - mb `margin-bottom`
 - ml:a `margin-left: auto`
 - mr:a `margin-right: auto`
+- m0-a `margin: 0 auto`
 - fz `font-size`
 - w `width:`
 - h `height:`
