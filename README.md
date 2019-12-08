@@ -107,7 +107,11 @@ border-radius: 50%
 ## === pug  ===
 - a(href="#") 文字
 - p 文字の改行
-    |br
+```
+p 〒000-0000  東京都中央区杉並3-3-403
+  br
+  a(href="#") http://logger.nett/
+```
 - 代替テキストを非表示設定
 ```
 span.fa.fa-twitter(title="Twitter",aria-hidden="true")
