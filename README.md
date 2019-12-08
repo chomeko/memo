@@ -58,18 +58,18 @@ ul
 >各子要素に％を指定
 ```
 footer
-    .container
-      display: flex
-      flex-wrap: wrap
-  .footA
-    flex: 0 0 40%
-  .footB
-    flex: 0 0 60%
+  .container
     display: flex
-    div
-      flex: 1
-  .footC
-    flex: 100%
+    flex-wrap: wrap
+.footA
+  flex: 0 0 40%
+.footB
+  flex: 0 0 60%
+  display: flex
+  div
+    flex: 1
+.footC
+  flex: 100%
 ```
 - 円
 >emでフォントサイズの２倍
@@ -107,7 +107,7 @@ border-radius: 50%
 ## === pug  ===
 - a(href="#") 文字
 - p 文字の改行
-    br
+    |br
 - 代替テキストを非表示設定
 ```
 span.fa.fa-twitter(title="Twitter",aria-hidden="true")
