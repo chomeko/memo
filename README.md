@@ -36,13 +36,15 @@
 - . div class=""
 - section.  section class=""
 - ul>li*5>a[href=#]
-```ul
+```
+ul
   li
     a(href="#")
   li
     a(href="#")
   li
-    a(href="#")```
+    a(href="#")
+ ```
 ## === sass コマンド集 ===
 - c# `color: #カラーコード`
 - bc `background-color:`
