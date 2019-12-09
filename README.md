@@ -79,6 +79,8 @@ width: 2em
 line-height: 2em
 border-radius: 50%
 ```
+- z-index: 100
+>positionで別レイヤー化したパーツの重なり順を指定
 ## === emmet-sass コマンド集 ===
 - c# `color: #カラーコード`
 - c:i `color: inherit`
@@ -97,6 +99,8 @@ border-radius: 50%
 - tdn `text-decoration: none`
 - tdu `text-decoration: underline`
 - ta:c `text-align: center`
+- ai:c `align-items: center`上下方向中央揃え
+- jc:sb `justify-content: space-between`左右方向両端揃え
 - dib `display: inline-block`
 - df `display: flex`
 - fxd:rr `flex-direction: row-reverse`
@@ -130,4 +134,9 @@ style(type='text/css').
     clip: rect( 0,0,0,0 );
     border: 0;
   }
+```
+- トグルボタン(代替テキスト付き)
+```
+button(type="button").headC
+  span.fa.fa-bars(title="MENU")
 ```
