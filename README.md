@@ -9,6 +9,14 @@
 - Adobe Color cc 配色サイト
 - gogle fonts フォントサイト
 - https://fontawesome.com/ アイコンフォトサイト
+- パンくずリストの矢印
+```
+a::after
+  margin-left: 10px
+  content: '\f105'
+  font-family: 'FontAwesome'
+  opacity: 0.3
+```
 
 # vwの計算
 - １vwは画面横幅の100分の1になる
@@ -44,6 +52,22 @@ ul
     a(href="#")
   li
     a(href="#")
+```
+- table>tr*4>th+td
+```
+table
+  tr
+    th
+    td
+  tr
+    th
+    td
+  tr
+    th
+    td
+  tr
+    th
+    td
 ```
 ### === sass(css) メモ集 ===
 - div:not(:first-child)
@@ -81,6 +105,9 @@ border-radius: 50%
 ```
 - z-index: 100
 >positionで別レイヤー化したパーツの重なり順を指定
+- position: static
+>header等の重なりを解除
+>(position: absolute)で重ねたやつを解除する
 ## === emmet-sass コマンド集 ===
 - c# `color: #カラーコード`
 - c:i `color: inherit`
@@ -101,6 +128,8 @@ border-radius: 50%
 - ta:c `text-align: center`
 - ai:c `align-items: center`上下方向中央揃え
 - jc:sb `justify-content: space-between`左右方向両端揃え
+- ta:l `text-align: left`
+- wb:k `word-break: keep-all`改行を禁止する
 - dib `display: inline-block`
 - df `display: flex`
 - fxd:rr `flex-direction: row-reverse`
