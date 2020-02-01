@@ -1,0 +1,104 @@
+<section class="price">
+  <div class="prisce__container">
+    <div class="price__wrapper">
+      <table class="price__table">
+        <caption class="price__title">Price</caption>
+        <tr>
+          <th>
+            row1
+          </th>
+          <td>
+            piko ￥10,000
+          </td>
+        </tr>
+        <tr>
+          <th>
+            row2
+          </th>
+          <td>
+            piko ￥10,000
+          </td>
+        </tr>
+        <tr>
+          <th>
+            row3
+          </th>
+          <td>
+            piko ￥10,000
+          </td>
+        </tr>
+      </table>
+      <p class="price__text">
+        あああああああああああ
+      </p>
+    </div>
+  </div>
+</section>
+<section class="comments">
+  <div class="comments__container">
+    <div class="comments__wrapper">
+      <h2 class="commens__title">
+        Comments
+      </h2>
+       <ul>
+         <li></li>
+         <li></li>
+       </ul>
+    </div>
+  </div>
+</section>  
+
+
+.price { 
+  width: 100%;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 40px;
+  width: 100%;
+  background: #DDD;
+}
+.prisce__container {
+  width: 300px;
+  margin: auto;
+  height: auto;
+}
+.price__wrapper {
+  width: 100%;
+}
+.price__title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.price__table {
+  width: 100%;
+  margin: auto;
+  border: 1px solid #555;
+  border-collapse: collapse;
+}
+th,td {
+  border: 1px solid #555;
+}
+th {
+  width: 100px;
+  background: black;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+td {
+  width: 150px;
+  padding: 5px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.price__text {
+  font-size: 12px;
+}
+@media screen and (min-width: 676px) {
+.prisce__container {
+  width: 500px;
+  margin: auto;
+  height: auto;
+  }
+}
